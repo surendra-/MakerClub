@@ -6,7 +6,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<link rel="shortcut icon" href="http://www.servesy.com/resources/fonts/favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="images/fav.png" type="image/x-icon" />
 		<title>MakerClub</title>
 		  <!-- Compiled and minified CSS -->
 		<link rel="stylesheet" href="css/materialize.min.css">
@@ -27,8 +27,14 @@
 			margin-left:4px;
 		}
 		.beta{
-			font-size:10px;
+			font-size:20px;
 			color:#f00;
+		}
+		.footer-nav a{
+			display : block;
+			padding:5px;
+			margin-left:10px;
+			
 		}
 		</style>
 		<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
@@ -45,7 +51,7 @@
 			<div class="white" role="navigation">
 				<div class="nav-wrapper">
 					<ul>
-						<li class="green left" style=" padding:5px; margin:3px;"><a  style="color:#fff;" class= " modal-trigger" href="#modal1">Join MakerClub</a></li>
+						<li class="green left" style=" padding:5px; margin:3px;"><a style="color:#fff;" class="modal-trigger" href="#modal1">Join MakerClub</a></li>
 						<li class="left"  style="padding:5px; margin:3px;"><a href="#" >Sign in</a></li>
 					</ul>
 				</div>
@@ -61,30 +67,42 @@
       <ul class="hide-on-med-and-down">
         <li><a href="https://webmaker.org/search?type=all&q=makerclub" target="_blank"><i class="mdi-action-explore left"></i>Explore</a></li>
 		<li><a href="event.php"><i class=" tiny mdi-action-event left"></i>Events</a></li>
-		<li><a href="#"><i class="mdi-hardware-keyboard left"></i>Learn</a></li>
+		<li class="learn1" ><a href='#'><i class="mdi-hardware-keyboard left"></i>Learn</a></li>
 		<li class="collab1"><a href='#'><i class="mdi-action-home left"></i>Collab House</a></li>
       </ul>
 	</div>
       <ul id="nav-mobile" class="side-nav" >
        <li><a href="#"><i class="mdi-action-explore left"></i>Explore</a></li>
 		<li><a href="event.php"><i class="mdi-action-event left"></i>Events</a></li>
-		<li><a href="#"><i class="mdi-hardware-keyboard left"></i>Learn</a></li>
+		<li class="learn1"><a><i class="mdi-hardware-keyboard left"></i>Learn</a></li>
 		<li class="collab1" ><a><i class="mdi-action-home left"></i>Collab House</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse "><i class="mdi-navigation-menu"></i></a>
     </div>
   </nav>
-  <nav class="indigo hide" role="navigation">
+  <nav class="indigo hide1 hide" role="navigation">
     <div class="nav-wrapper">
 	<div class="container">
 	<div class="row">
       <ul class="hide-on-med-and-down secondnav">
-        <li class="col m2"><a href="#">Space</a></li>
-		<li class="col m2"><a href='#'>Tools</a></li>
+        <li class="col m2"><a href="space.php">Space</a></li>
+		<li class="col m2"><a href='tools.php'>Tools</a></li>
 		<li class="col m2"><a href="#">Collab Lab</a></li>
 		<li class="col m2"><a href="#">Workshops</a></li>
 		<li class="col m2"><a href="#">Membership</a></li>
 		<li class="col m2"><a href="#">Guidelines</a></li>
+      </ul>
+	</div>
+	</div>
+    </div>
+  </nav>
+  <nav class="indigo hide2 hide" role="navigation">
+    <div class="nav-wrapper">
+	<div class="container">
+	<div class="row">
+      <ul class="hide-on-med-and-down secondnav">
+        <li class="col m2"><a href="maker-skills.php">Maker Skills</a></li>
+		<li class="col m2"><a href='#'>Badges</a></li>
       </ul>
 	</div>
 	</div>
