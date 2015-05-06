@@ -3,22 +3,24 @@
           <div class="container">
             <div class="row" style="margin-bottom:0px;">
               <div class="col m3 s12 footer-nav">
-                  <a class="grey-text text-lighten-3" href="#!">Explore </a>
-                  <a class="grey-text text-lighten-3" href="#!">Events </a>
-                  <a class="grey-text text-lighten-3" href="#!">Learn </a>
-                  <a class="grey-text text-lighten-3" href="#!">Collab House</a>
+                  <a class="grey-text text-lighten-3" href="https://webmaker.org/search?type=all&q=makerclub">Explore </a>
+                  <a class="grey-text text-lighten-3" href="event.php">Events </a>
+                  <a class="grey-text text-lighten-3" href="maker-skills.php">Learn </a>
+                  <a class="grey-text text-lighten-3" href="space.php">Collab House</a>
               </div>
               <div class="col m3 s12  footer-nav">
-                  <a class="grey-text text-lighten-3" href="#!">Facebook</a>
-                  <a class="grey-text text-lighten-3" href="#!">Twitter</a>
-                  <a class="grey-text text-lighten-3" href="#!">Blog</a>
-                  <a class="grey-text text-lighten-3" href="#!">Contact</a>
+                  <a class="grey-text text-lighten-3" href="https://www.facebook.com/MakerClubIndia">Facebook</a>
+                  <a class="grey-text text-lighten-3" href="https://twitter.com/makerclubIN">Twitter</a>
+                  <a class="grey-text text-lighten-3" href="https://www.blog.makerclub.in">Blog</a>
+				   <a class="white-text" onclick="Materialize.toast('<span>hello@makerclub.in</span><a class=&quot;btn-flat yellow-text&quot;>+919985258603<a>', 5000)">Contact</a>
+				  <!--<a class="tooltipped white-text" data-position="top" data-delay="50" data-tooltip="hello@mackerclub.in ">Contact</a>-->
+                  <!--<a class="grey-text text-lighten-3" href="https://mail.google.com/mail/?view=cm&fs=1&to=hello@makerclub.in" target="_blank">Contact</a>-->
               </div>
 			  <div class="col m3 s12  footer-nav">
+					<a class="grey-text text-lighten-3" href="index.php#values">About</a>
                   <a class="grey-text text-lighten-3" href="#!">Donate</a>
                   <a class="grey-text text-lighten-3" href="#!">Careers</a>
-                  <a class="grey-text text-lighten-3" href="#!">Privacy</a>
-                  <a class="grey-text text-lighten-3" href="#!">Legal</a>
+                  <a class="grey-text text-lighten-3" href="#!">Legal </a>
               </div>
 			   <div class="col s12 m3">
 				<a href="index.php" class="page-title"><h1 style="font-family:oswald;color:#fff;">MakerClub<span class="beta">BETA</span></h1></a>
@@ -78,8 +80,11 @@ $(document).ready(function() {
 	 $('.collab1').click(function(){
 		if(a==0){
 			a=1;
+			$('.learn1').removeClass('indigo');
+			$('.hide2').removeClass('show').addClass('hide');
 			$('.collab1').addClass('indigo');
 			$('.hide1').removeClass('hide').addClass('show');
+			b=0;
 		}else{
 			a=0;
 			$('.collab1').removeClass('indigo');
@@ -90,15 +95,20 @@ $(document).ready(function() {
 	$('.learn1').click(function(){
 		if(b==0){
 			b=1;
+			$('.collab1').removeClass('indigo');
+			$('.hide1').removeClass('show').addClass('hide');
 			$('.learn1').addClass('indigo');
 			$('.hide2').removeClass('hide').addClass('show');
+			a=0;
 		}else{
 			b=0;
 			$('.learn1').removeClass('indigo');
 			$('.hide2').removeClass('show').addClass('hide');
 		}
 	});
-	
+	  $(document).ready(function(){
+    $('.tooltipped').tooltip({delay: 50});
+  });
 		
   });
 	</script>

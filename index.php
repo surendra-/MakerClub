@@ -20,15 +20,15 @@ include('header.php');
 		</div>
 		<div class="col m8 s12">
 		<div class="right" style="color:#fff;font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif" ><h2>Make your own Creation and Internet of Things </h2><p style="font-size:21px;">MakerClub will help kids, teens, youth & people of all age groups to build things while learning new skills.</p></div>
-		 <button class="btn waves-effect waves-light  yellow" type="submit" name="action" style="color:#000">Register Now
-		</button>
+		 <a href="workshop.php" class="btn waves-effect waves-light  yellow" type="submit" name="action" style="color:#000">Register Now
+		</a>
 		</div>
 		</div>
 		<br />
 	</div>
  </div>
 
- <div class="section grey lighten-3">
+ <div class="section grey lighten-3" id="values">
 	<div class="container">
 		<div class="row center">
 			<h4>OUR VALUES</h4>

@@ -68,6 +68,7 @@
         <li><a href="https://webmaker.org/search?type=all&q=makerclub" target="_blank"><i class="mdi-action-explore left"></i>Explore</a></li>
 		<li><a href="event.php"><i class=" tiny mdi-action-event left"></i>Events</a></li>
 		<li class="learn1" ><a href='#'><i class="mdi-hardware-keyboard left"></i>Learn</a></li>
+		<li><a href="workshop.php"><i class="mdi-action-settings left"></i>Workshops</a></li>
 		<li class="collab1"><a href='#'><i class="mdi-action-home left"></i>Collab House</a></li>
       </ul>
 	</div>
@@ -88,7 +89,7 @@
         <li class="col m2"><a href="space.php">Space</a></li>
 		<li class="col m2"><a href='tools.php'>Tools</a></li>
 		<li class="col m2"><a href="#">Collab Lab</a></li>
-		<li class="col m2"><a href="#">Workshops</a></li>
+		<li class="col m2"><a href="workshop.php">Workshops</a></li>
 		<li class="col m2"><a href="#">Membership</a></li>
 		<li class="col m2"><a href="#">Guidelines</a></li>
       </ul>
@@ -102,7 +103,7 @@
 	<div class="row">
       <ul class="hide-on-med-and-down secondnav">
         <li class="col m2"><a href="maker-skills.php">Maker Skills</a></li>
-		<li class="col m2"><a href='#'>Badges</a></li>
+		<li class="col m2"><a href='badges.php'>Badges</a></li>
       </ul>
 	</div>
 	</div>
