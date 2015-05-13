@@ -33,6 +33,7 @@
   <div id="modal1" class="modal" style="height:auto;">
     <div class="modal-content">
       <div class="row">
+	  <form method="post" action="handler/registration.php" id="regForm" >
 		<div class="col s12 m12">
 		 <div class="input-field col s12">
 		  <i class="mdi-action-account-circle prefix"></i>
@@ -46,12 +47,12 @@
 		 </div>
 		 <div class="input-field col s12">
 		  <i class="mdi-action-lock prefix"></i>
-          <input id="password1" name="password1" type="text" class="validate">
+          <input id="password1" name="password1" type="password" class="validate">
           <label for="password1"> Password</label>
 		 </div>
 		 <div class="input-field col s12">
 		  <i class="mdi-action-lock prefix"></i>
-          <input id="password2" name="password1" type="text" class="validate">
+          <input id="password2" name="password2" type="password" class="validate">
           <label for="password2"> Confirm Password</label>
 		 </div>
 		 <div class="col s12">
@@ -59,7 +60,7 @@
 			<label class="check" for="filled-in-box1">I agree to MakerClub's Terms and Privacy Policy</label>
 		 </div>
 		<div class="col s12">
-			<input type="checkbox" class="filled-in" id="newletter" name="newsletter" />
+			<input type="checkbox" name="newsletter" value="1" id="filled-in-box2" class="filled-in" />
 			<label class="check" for="filled-in-box2">Send me email updates about MakerClub and other Collab House projects</label>
 		</div>
 		<div class="col s12">
@@ -67,14 +68,16 @@
 			<input type="submit" name="singup" class="btn" value="Join" />
 		</div>
 		</div>
+		</form>
 	  </div>
     </div>
   </div>
   
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <!-- Compiled and minified JavaScript -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script> 
-  <script>
+<script src="js/materialize.min.js"></script> 
+<script src="js/validate.js"></script> 
+ <script>
   var a=0;b=0;
 $(document).ready(function() {
     $('select').material_select();
@@ -113,7 +116,29 @@ $(document).ready(function() {
 	  $(document).ready(function(){
     $('.tooltipped').tooltip({delay: 50});
   });
-		
+	
+	//FORM VALIDATION SCRIPT
+	$('#regForm').validate({
+		rules : {
+				name : {
+					required : true
+				},
+				email:{
+					required:true,
+					email:true
+				},
+				password1:{
+					required:true,
+					minlength:6,
+				},
+				password2:{
+					required:true,
+					minlength:6,
+					equalTo : password1
+				}
+									
+		}
+	});
   });
 	</script>
 	</body>

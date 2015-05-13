@@ -1,5 +1,5 @@
 <?php
-
+session_start();
   ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -36,6 +36,11 @@
 			margin-left:10px;
 			
 		}
+		label.error{
+			margin-top: 35px;
+			font-size: 10px !important;
+			color:#900 !important;
+		}
 		</style>
 		<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 	</head>
@@ -51,8 +56,13 @@
 			<div class="white" role="navigation">
 				<div class="nav-wrapper">
 					<ul>
-						<li class="green left" style=" padding:5px; margin:3px;"><a style="color:#fff;" class="modal-trigger" href="#modal1">Join MakerClub</a></li>
+					<?php if(empty($_SESSION['id'])){?>
+						<li class="green left" style=" padding:5px; margin:3px;"><a style="color:#fff;" class="modal-trigger" href="#modal1">Join MakerClub </a></li>
 						<li class="left"  style="padding:5px; margin:3px;"><a href="#" >Sign in</a></li>
+					<?php }else{ ?>
+						<li class=" left" style=" padding:5px; margin:3px;">Hi <?php echo $_SESSION['name']; ?> !</li>
+						<li class="left"  style="padding:5px; margin:3px;"><a href="handler/logout.php" >Logout</a></li>
+					<?php }?>
 					</ul>
 				</div>
 			</div>

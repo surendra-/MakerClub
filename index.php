@@ -46,7 +46,7 @@ include('header.php');
 				<p>We believe that Maker Skills are important 21st century skills that build a generation of informed creators. MakerClub combine tools, community, and education for the purposes of enabling community members to design, prototype and create. The purpose is to providing access to community, education & resources.</p>
 			</div>
 			<div class="col m4 s12 right">
-				<img class="responsive-img" src="earth.png" />
+				<img class="responsive-img" src="images/earth.png" />
 			</div>
 		</div>
 	</div>

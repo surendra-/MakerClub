@@ -34,7 +34,9 @@ include('header.php');
   .box .col .img{
 	width:100%;
 	height:200px;
-	background:url('http://makerclub.org/app/uploads/2015/02/star_wars_r2_d2_in_iron_man_armor_mk_x.jpg');
+	background:url('images/workshop1.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
   }
   .back{
 	  background:url('images/back.jpg');
