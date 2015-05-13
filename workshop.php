@@ -9,7 +9,6 @@ include('header.php');
  }
  .box .col .content{
 	 border:1px solid #000;
-	 border-radius:0px 0px 15px 15px;
 	 background:#fff;
  }
  .box .col .title{
@@ -20,7 +19,6 @@ include('header.php');
 	 font-weight:600;
 	 background:#fff;
 	 text-transform:capitalize;
-	  border-radius:15px 15px 0px 0px;
  }
   .box .col .schedule{
 	 
@@ -70,6 +68,34 @@ include('header.php');
 						<a class="btn" href="#">RESERVE YOUR PLACE</a>
 					</div>
 				</div>
+			 </div>
+			 <div class="col m6 s12 center">
+				 <ul class="collapsible" data-collapsible="accordion">
+				<li>
+					<div class="collapsible-header"><i class="tiny mdi-action-event left"></i>Day 1</div>
+					<div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+				</li>
+				<li>
+					<div class="collapsible-header"><i class="tiny mdi-action-event left"></i>Day 2</div>
+					<div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+				</li>
+				<li>
+					<div class="collapsible-header"><i class="tiny mdi-action-event left"></i>Day 3</div>
+					<div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+				</li>
+				<li>
+					<div class="collapsible-header"><i class="tiny mdi-action-event left"></i>Day 4</div>
+					<div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+				</li>
+				<li>
+					<div class="collapsible-header"><i class="tiny mdi-action-event left"></i>Day 5</div>
+					<div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+				</li>
+				<li>
+					<div class="collapsible-header"><i class="tiny mdi-action-event left"></i>Day 6</div>
+					<div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+				</li>
+				</ul>
 			 </div>
 			 
 			 </div>

@@ -36,31 +36,35 @@
 		<div class="col s12 m12">
 		 <div class="input-field col s12">
 		  <i class="mdi-action-account-circle prefix"></i>
-          <input id="first_name" type="text" class="validate">
-          <label for="first_name"> Name</label>
+          <input id="name" name="name" type="text" class="validate">
+          <label for="name"> Name</label>
 		 </div>
 		<div class="input-field col s12">
 		  <i class="mdi-maps-local-post-office prefix"></i>
-          <input id="email" type="text" class="validate">
+          <input id="email" name="email" type="text" class="validate">
           <label for="email"> Email</label>
 		 </div>
 		 <div class="input-field col s12">
 		  <i class="mdi-action-lock prefix"></i>
-          <input id="password1" type="text" class="validate">
+          <input id="password1" name="password1" type="text" class="validate">
           <label for="password1"> Password</label>
 		 </div>
 		 <div class="input-field col s12">
 		  <i class="mdi-action-lock prefix"></i>
-          <input id="password2" type="text" class="validate">
+          <input id="password2" name="password1" type="text" class="validate">
           <label for="password2"> Confirm Password</label>
 		 </div>
 		 <div class="col s12">
-			<input type="checkbox" class="filled-in" id="filled-in-box1" checked="checked" />
+			<input type="checkbox" name="terms" class="filled-in" id="filled-in-box1" />
 			<label class="check" for="filled-in-box1">I agree to MakerClub's Terms and Privacy Policy</label>
 		 </div>
 		<div class="col s12">
-			<input type="checkbox" class="filled-in" id="filled-in-box2" checked="checked" />
+			<input type="checkbox" class="filled-in" id="newletter" name="newsletter" />
 			<label class="check" for="filled-in-box2">Send me email updates about MakerClub and other Collab House projects</label>
+		</div>
+		<div class="col s12">
+			<br />
+			<input type="submit" name="singup" class="btn" value="Join" />
 		</div>
 		</div>
 	  </div>
