@@ -29,7 +29,7 @@
           </div>
           
         </footer>
-<!-- Modal Structure -->
+<!-- Registration Modal Structure -->
   <div id="modal1" class="modal" style="height:auto;">
     <div class="modal-content">
       <div class="row">
@@ -66,6 +66,33 @@
 		<div class="col s12">
 			<br />
 			<input type="submit" name="singup" class="btn" value="Join" />
+		</div>
+		</div>
+		</form>
+	  </div>
+    </div>
+  </div>
+  
+  <!-- LOGIN FORM MODAL STRUCTURE -->
+  
+  <div id="modal2" class="modal" style="height:auto;">
+    <div class="modal-content">
+      <div class="row">
+	  <form method="post" action="handler/login.php" id="loginForm" >
+		<div class="col s12 m12">
+		<div class="input-field col s12">
+		  <i class="mdi-maps-local-post-office prefix"></i>
+          <input id="email" name="email" type="text" class="validate">
+          <label for="email"> Email</label>
+		 </div>
+		 <div class="input-field col s12">
+		  <i class="mdi-action-lock prefix"></i>
+          <input id="password" name="password" type="password" class="validate">
+          <label for="password"> Password</label>
+		 </div>
+		<div class="col s12">
+			<br />
+			<input type="submit" name="singup" class="btn" value="Login" />
 		</div>
 		</div>
 		</form>

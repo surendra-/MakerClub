@@ -58,7 +58,7 @@ session_start();
 					<ul>
 					<?php if(empty($_SESSION['id'])){?>
 						<li class="green left" style=" padding:5px; margin:3px;"><a style="color:#fff;" class="modal-trigger" href="#modal1">Join MakerClub </a></li>
-						<li class="left"  style="padding:5px; margin:3px;"><a href="#" >Sign in</a></li>
+						<li class="left"  style="padding:5px; margin:3px;"><a class="modal-trigger" href="#modal2" >Sign in</a></li>
 					<?php }else{ ?>
 						<li class=" left" style=" padding:5px; margin:3px;">Hi <?php echo $_SESSION['name']; ?> !</li>
 						<li class="left"  style="padding:5px; margin:3px;"><a href="handler/logout.php" >Logout</a></li>
