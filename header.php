@@ -79,19 +79,17 @@ session_start();
 		<li><a href="event.php"><i class=" tiny mdi-action-event left"></i>Events</a></li>
 		<li class="learn1" ><a href='#'><i class="mdi-hardware-keyboard left"></i>Learn</a></li>
 		<li><a href="workshop.php"><i class="mdi-action-settings left"></i>Workshops</a></li>
-		<li class="collab1"><a href='#'><i class="mdi-action-home left"></i>Collab House</a></li>
       </ul>
 	</div>
       <ul id="nav-mobile" class="side-nav" >
        <li><a href="#"><i class="mdi-action-explore left"></i>Explore</a></li>
 		<li><a href="event.php"><i class="mdi-action-event left"></i>Events</a></li>
 		<li class="learn1"><a><i class="mdi-hardware-keyboard left"></i>Learn</a></li>
-		<li class="collab1" ><a><i class="mdi-action-home left"></i>Collab House</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse "><i class="mdi-navigation-menu"></i></a>
     </div>
   </nav>
-  <nav class="indigo hide1 hide" role="navigation">
+  <!--<nav class="indigo hide1 hide" role="navigation">
     <div class="nav-wrapper">
 	<div class="container">
 	<div class="row">
@@ -106,7 +104,7 @@ session_start();
 	</div>
 	</div>
     </div>
-  </nav>
+  </nav> -->
   <nav class="indigo hide2 hide" role="navigation">
     <div class="nav-wrapper">
 	<div class="container">
