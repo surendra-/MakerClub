@@ -18,8 +18,8 @@
               </div>
 			  <div class="col m3 s12  footer-nav">
 					<a class="grey-text text-lighten-3" href="index.php#values">About</a>
-                  <a class="grey-text text-lighten-3" href="#!">Donate</a>
-                  <a class="grey-text text-lighten-3" href="#!">Careers</a>
+                  <a class="grey-text text-lighten-3" href="#!" onclick="Materialize.toast('<span>hello@makerclub.in</span><a class=&quot;btn-flat yellow-text&quot;>+919985258603<a>', 5000)">Donate</a>
+                  <a class="grey-text text-lighten-3" href="#!" onclick="Materialize.toast('<span>hello@makerclub.in</span><a class=&quot;btn-flat yellow-text&quot;>+919985258603<a>', 5000)">Careers</a>
                   <a class="grey-text text-lighten-3" href="#!">Legal </a>
               </div>
 			   <div class="col s12 m3">

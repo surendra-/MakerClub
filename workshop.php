@@ -63,6 +63,7 @@ include('header.php');
 							<tr><td>Duration</td><td>5 Days</td></tr>
 							<tr><td>Start Days</td><td>20th May 2015</td></tr>
 							<tr><td>Ages</td><td> 9+&Above </td></tr>
+							<tr><td>City</td><td> Hyderabad </td></tr>
 						</table>
 						<p>Join Brighton based tinkerers MakerClub, as you learn to build your own robot buddy! We’ll be using the Arduino micro-controller …</p>
 					</div>
@@ -71,10 +72,10 @@ include('header.php');
 					</div>
 				</div>
 			 </div>
-			 <div class="col m6 s12 center">
+			 <div class="col m6 s12">
 				 <ul class="collapsible" data-collapsible="accordion">
 				<li>
-					<div class="collapsible-header"><i class="tiny mdi-action-event left"></i>Day 1: Get started with basics!</div>
+					<div class="collapsible-header active"><i class="tiny mdi-action-event left"></i>Day 1: Get started with basics!</div>
 					<div class="collapsible-body"><p>In this workshop, Participants tinker with basic electronic components. 
 					Peek inside and learn from simple projects and programming code examples, and tweak them to make your own. 
 					Practice soldering to create strong electrical connections. Collaborate to prototype and create original projects that dazzle the senses and respond to the “real world” via light, sound and/or motion. 
@@ -123,12 +124,58 @@ include('header.php');
 		</div>
 	</div>
 	<!-- second section -->
+	<div class="section grey lighten-3">
+		<div class="container">
+			<div class="row">
+			<div class="col m2 s6"><img class="responsive-img circle " src="images/tushar.jpg" /></div>
+			<div class="col m10 s6">
+				<h4>Tushar Chung</h4>
+				<h6>Mentor</h6>
+				<p class="black-text" >Tushar is a Software Developer at Microsoft and is driving Internet of Things initiative at Microsoft India. 
+				Earlier this year, he co-founded MakerzBay: Microsoft India’s first Maker Space at Hyderabad campus.
+				He also worked with Sensors and Devices division at Microsoft Research- Cambridge on ‘Circuit Stickers’ project.<br /><br />
+				Tushar is from the founding batch of the Young India Fellowship Programme (YIFP) – a multi-disciplinary, post graduate program started in 2011 in collaboration with University of Pennsylvania.
+				One of his team projects named ‘viSparsh’, an electronic navigation belt for visually impaired was selected among the top 12 finalists of Asian Innovations Awards 2012 by The Wall Street Journal. <br /><br/>
+				Tushar is passionate about learning new technologies and making it accessible to the masses. He has participated and won many national and international competitions including winning Microsoft Imagine Cup, 
+				Accenture Innovation Jockeys, Economic Times-Power of Ideas and Health2.0 Developers’ World Cup. His research interests include Embedded Systems,
+				Human Computer Interaction and Robotics. Tushar is a maker by heart and loves creating futuristic devices and applications.
+				</p>
+			</div>
+			</div>
+			
+			<div class="row">
+			<div class="col m2 s6"><img class="responsive-img circle" src="images/sanjay.jpg" /></div>
+			<div class="col m10 s6">
+				<h4>Sanjay Nekkanti</h4>
+				<h6>Mentor</h6>
+				<p class="black-text">Sanjay is currently the co-founder and director of Dhruva Space Private limited, a private entity focused on Small Satellite Solutions based out of Bangalore.
+				He comes with a Spacecraft engineering background with experience of building Nano-Satellites in India, CubeSats in Singapore and few other space related projects in Europe. 
+				He has a Masters degree in Space Technology from Sweden and a Masters degree in Spatial Techniques and Instrumentation from France.<br /><br />
+				As part of Dhruva Space, Sanjay has established key relationships with Spacecraft developers in Europe & USA, most recent of them being signing of an MoU between Dhruva Space and Berlin Space Technologies for jointly manufacturing earth observation micro-satellites in India. 
+				Sanjay is also the President of Society of Satellite Professionals - India, serves on the board of National Institute of Amateur Radio, India.
+				</p>
+			</div>
+			</div>
+			
+			<div class="row">
+			<div class="col m2 s6"><img class="responsive-img circle " src="images/prasan.jpg" /></div>
+			<div class="col m10 s6">
+				<h4>Prasan Dutt</h4>
+				<h6>Training & Curriculum</h6>
+				<p class="black-text">Prasan is a technology enthusiast with passion for embedded systems. Prasan has experience working on Arduino and ARM Cortex M4 boards. 
+				Prasan is helping students at both school and college level inviting them to do computer programming and use electronics to build their own amazing devices through fun and powerful teaching methods. 
+				Prasan has deep interest in working with startups. He has experience managing educational Robotics workshops and bootcamp program for all age groups.</p>
+			</div>
+			</div>
+		</div>
+	</div>
+	<!-- Third Section-->
 	<div class="section white">
 		<div class="container">
 			<div class="row center">
 			<h2>Invite Us!</h2>
 			 <h5>Host MakerClub's workshop at your location whether it be your school, college or backyard!</h5>
-			 <a class="btn" href="#">Request for workshop</a>
+			 <a class="btn" href="#!" onclick="Materialize.toast('<span>hello@makerclub.in</span><a class=&quot;btn-flat yellow-text&quot;>+919985258603<a>', 5000)">Request for workshop</a>
 			</div>
 		</div>
 	</div>
