@@ -31,7 +31,7 @@
         </footer>
 <!-- Registration Modal Structure -->
   <div id="modal1" class="modal" style="height:auto;">
-    <div class="modal-content">
+    <div class="modal-content" style="padding:0px;">
       <div class="row">
 	  <form method="post" action="handler/registration.php" id="regForm" >
 		<div class="col s12 m12">

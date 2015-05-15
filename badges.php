@@ -21,7 +21,7 @@ include('header.php');
 	</div>
  </div>
  <div class="row"> 
-	<div class="container"><p class="right">Comming Soon...</p></div>
+	<div class="container"><p class="right">Coming Soon...</p></div>
  </div>
 
   <?php
