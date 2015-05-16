@@ -61,7 +61,7 @@ include('header.php');
 					<div class="schedule teal lighten-1">
 						<table>
 							<tr><td>Duration</td><td>5 Days</td></tr>
-							<tr><td>Start Days</td><td>20th May 2015</td></tr>
+							<tr><td>Start Days</td><td>26th May 2015</td></tr>
 							<tr><td>Ages</td><td> 9 Years & Above </td></tr>
 							<tr><td>City</td><td> Hyderabad </td></tr>
 							<tr><td>Fees</td><td>  Rs. 7700/- INR (Inclusive of all taxes) </td></tr>
@@ -86,11 +86,8 @@ include('header.php');
 				</li>
 				<li>
 					<div class="collapsible-header"><i class="tiny mdi-action-event left"></i>Day 2: 3-D Printing</div>
-					<div class="collapsible-body"><p>In this workshop, participants will be given an introduction to 3D printing technology. 
-					This hands-on and interactive exercise has 4 levels of engagement, from beginner to more advanced.
-					Upon completion of this series of activities, participants will be familiar with downloading 3D designs, creating their own designs using 3 different programs, 
-					converting their 3D design files to a format that the 3D printer can recognize and print, 
-					and uploading and printing their designs using the  3D printer.</p></div>
+					<div class="collapsible-body"><p>In this workshop, participants will be given an introduction to 3D printing, history and applications of 3D printing technology. This will be a hands-on and interactive exercise  where participants will go through downloading 3D designs, creating their own designs, converting their 3D design files to a format that the 3D printer can recognize and print,
+					and uploading and printing their designs using the 3D printer.</p></div>
 				</li>
 				<li>
 					<div class="collapsible-header"><i class="tiny mdi-action-event left"></i>Day 3: Arduino</div>
@@ -125,7 +122,7 @@ include('header.php');
 			<div class="row">
 			<div class="col m2 s6"><img class="responsive-img circle " src="images/tushar.jpg" /></div>
 			<div class="col m10 s6">
-				<h4>Tushar Chung, <span style="font-size: 18px;">Mentor</span></h4>
+				<h4>Tushar Chugh, <span style="font-size: 18px;">Mentor</span></h4>
 				<p class="black-text" >Tushar is a Software Developer at Microsoft and is driving Internet of Things initiative at Microsoft India. 
 				Earlier this year, he co-founded MakerzBay: Microsoft India’s first Maker Space at Hyderabad campus.
 				He also worked with Sensors and Devices division at Microsoft Research- Cambridge on ‘Circuit Stickers’ project.<br /><br />
@@ -163,6 +160,16 @@ include('header.php');
 		</div>
 	</div>
 	<!-- Third Section-->
+	<div class="section orange lighten-1">
+		<div class="container">
+			<div class="row center">
+			<h2>Get Involved!</h2>
+			 <h5>Help us host workshops! Bring your skills, ideas and creativity to build a awesome Maker Community.</h5>
+			 <a class="btn" href="#!" onclick="Materialize.toast('<span>hello@makerclub.in</span><a class=&quot;btn-flat yellow-text&quot;>+919985258603<a>', 5000)">Talk to us!</a>
+			</div>
+		</div>
+	</div>
+	<!-- Fourth section -->
 	<div class="section white">
 		<div class="container">
 			<div class="row center">

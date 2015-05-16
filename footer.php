@@ -6,7 +6,7 @@
                   <a class="grey-text text-lighten-3" href="https://webmaker.org/search?type=all&q=makerclub">Explore </a>
                   <a class="grey-text text-lighten-3" href="event.php">Events </a>
                   <a class="grey-text text-lighten-3" href="maker-skills.php">Learn </a>
-                  <a class="grey-text text-lighten-3" href="space.php">Collab House</a>
+                  <a class="grey-text text-lighten-3" href="space.php">MakerClub</a>
               </div>
               <div class="col m3 s12  footer-nav">
                   <a class="grey-text text-lighten-3" href="https://www.facebook.com/MakerClubIndia">Facebook</a>

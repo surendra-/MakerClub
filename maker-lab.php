@@ -11,7 +11,11 @@ include('header.php');
 </style>
    <div class="section white">
 	<div class="container">
+		<div class="row center ">
+			<h4>LEARN   &nbsp;&nbsp;|  &nbsp;&nbsp; DESIGN &nbsp;&nbsp;  |&nbsp;&nbsp;   PROTOTYPE&nbsp;&nbsp;   |&nbsp;&nbsp;   MAKE</h4>
+		</div>
 		<div class="row ">
+			
 			<h3>Explore, get the right resources and tools, build things and excel in your creativity.</h3>
 			<p> Start learning others how to read, write and participate in making with these free activities created by teachers, educators and technologists like you. Each featured activity includes step-by-step instructions and has been tested in schools, afterschool programs, libraries and community centers around the country. Whether learning how to build things,
 			understanding why maker education matters, or creating things you like, we believe teaching the maker skills should be fun and engaging! Unleash your imagination through play. It’s the best way to learn.

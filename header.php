@@ -41,6 +41,9 @@ session_start();
 			font-size: 10px !important;
 			color:#900 !important;
 		}
+		.main-nav li{
+			margin-right:16px;
+		}
 		</style>
 		<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 	</head>
@@ -74,8 +77,8 @@ session_start();
 <nav class="indigo darken-4" role="navigation">
     <div class="nav-wrapper">
 	<div class="container">
-      <ul class="hide-on-med-and-down">
-        <li><a href="https://webmaker.org/search?type=all&q=makerclub" target="_blank"><i class="mdi-action-explore left"></i>Explore</a></li>
+      <ul class="hide-on-med-and-down main-nav">
+        <li><a href="explore.php" target="_blank"><i class="mdi-action-explore left"></i>Explore</a></li>
 		<li><a href="event.php"><i class=" tiny mdi-action-event left"></i>Events</a></li>
 		<li class="learn1" ><a href='#'><i class="mdi-hardware-keyboard left"></i>Learn</a></li>
 		<li><a href="workshop.php"><i class="mdi-action-settings left"></i>Workshops</a></li>
@@ -110,7 +113,7 @@ session_start();
 	<div class="container">
 	<div class="row">
       <ul class="hide-on-med-and-down secondnav">
-        <li class="col m2"><a href="maker-skills.php">Maker Skills</a></li>
+        <li class="col m2"><a href="maker-lab.php">Maker Lab</a></li>
 		<li class="col m2"><a href='badges.php'>Badges</a></li>
       </ul>
 	</div>
